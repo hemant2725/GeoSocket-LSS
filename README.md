@@ -101,21 +101,21 @@ Below is a visual guide to the application flow and its real-time tracking capab
 ### 1. Establishing Connection
 When you launch the application and navigate to `localhost:3000`, the server initializes. The browser tab title **"Real-Time Tracking"** confirms that the connection is active and the system is ready to process location data.
 
-![Server Connection]![3](https://github.com/user-attachments/assets/1c6ab236-d61b-4003-82dc-12eecb8a73d0)
+![Server Connection] ![3](https://github.com/user-attachments/assets/1c6ab236-d61b-4003-82dc-12eecb8a73d0)
 
 ---
 
 ### 2. Geolocation Authorization
 To ensure privacy and functionality, the application requests permission to access your device's location. Users must select **"Allow while visiting the site"** to enable the Geolocation API to fetch coordinates for the map.
 
-![Permission Request]![1](https://github.com/user-attachments/assets/32fea9fd-8d44-4821-8f06-c89a3993bb4f)
+![Permission Request] ![1](https://github.com/user-attachments/assets/32fea9fd-8d44-4821-8f06-c89a3993bb4f)
 
 ---
 
 ### 3. Real-Time Map Rendering
 Once authorized, your current position is instantly identified. The map, powered by **Leaflet.js** and **OpenStreetMap**, centers on your coordinates and places a blue marker to represent your live location.
 
-![Active Tracking]![2](https://github.com/user-attachments/assets/0b3f1a4c-3e2d-4bb7-8889-45f3e30b178a)
+![Active Tracking] ![2](https://github.com/user-attachments/assets/0b3f1a4c-3e2d-4bb7-8889-45f3e30b178a)
 
 ---
 
@@ -125,7 +125,7 @@ The core feature of this project is the ability to track multiple users simultan
 * **Primary User:** Identified by a **Darker Blue** marker.
 * **Secondary User:** Identified by a **Lighter Blue** marker for clear visual distinction.
 
-![Multi-user Sync]![4](https://github.com/user-attachments/assets/9f1e51f9-e29f-4bca-8cd0-f542b7fe6132)
+![Multi-user Sync] ![4](https://github.com/user-attachments/assets/9f1e51f9-e29f-4bca-8cd0-f542b7fe6132)
 
 ---
 
