@@ -92,6 +92,16 @@ The system functions through a continuous event loop:
 * **Render**: Active clients receive the broadcast and update the corresponding marker position on their Leaflet instance.
 * **Disconnect**: Upon window closure, a `user-disconnect` event is emitted, prompting all nodes to remove the stale marker.
 ---
+## Screenshots
+![1](https://github.com/user-attachments/assets/d054497a-db18-464c-bbb7-031a4a575e0b)
+Before the tracking starts, the browser prompts for location access. You must click "Allow while visiting the site" to enable the application to fetch your coordinates and display them on the map.
+![2](https://github.com/user-attachments/assets/4de710af-b699-433e-97bc-80ea7214aa51)
+Once the permission is granted, the application identifies your current position. The map (powered by Leaflet/OpenStreetMap) centers on your coordinates and places a blue marker to represent your live location.
+![3](https://github.com/user-attachments/assets/720f2777-1211-46df-9559-bdb6ad42b40d)
+This image shows the browser address bar where the user enters localhost:3000. It also highlights the "Real-Time Tracking" tab title, indicating that the server is active and the application is ready to handle multiple connections.
+![4](https://github.com/user-attachments/assets/a298422f-a1b4-4c86-b95e-5225b90d0828)
+When the same link is opened in a different tab or on another device, the system tracks both instances simultaneously. As per your observation, the markers help you distinguish between users: the marker for the first session appears darker, while the marker for the second session appears lighter.
+
 
 ## 📂 Project Structure
 
