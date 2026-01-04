@@ -85,7 +85,12 @@ The application follows a modular **Client-Server-Broadcast** pattern:
     # Using Nodemon for development
     npx nodemon app.js
     ```
-
+## 📡 Operational Logic
+The system functions through a continuous event loop:
+* **Emit**: The client's device captures GPS coordinates and emits a `send-location` event.
+* **Relay**: The server receives the data, attaches the `socket.id`, and broadcasts a `recieve-location` event globally.
+* **Render**: Active clients receive the broadcast and update the corresponding marker position on their Leaflet instance.
+* **Disconnect**: Upon window closure, a `user-disconnect` event is emitted, prompting all nodes to remove the stale marker.
 ---
 
 ## 📂 Project Structure
