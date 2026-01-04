@@ -22,7 +22,7 @@
 
 ## 💡 About the Project
 
-[cite_start]**GeoSocket-LSS** is a professional-grade, real-time location tracking service. [cite_start]Unlike traditional mapping projects, this application leverages **Service-Oriented Architecture (SOA)** and **WebSockets** to transform hardware-level GPS data into a live synchronization engine. 
+**GeoSocket-LSS** is a professional-grade, real-time location tracking service. Unlike traditional mapping projects, this application leverages **Service-Oriented Architecture (SOA)** and **WebSockets** to transform hardware-level GPS data into a live synchronization engine. 
 
 The system features a clean separation between the backend orchestration and the reactive frontend, ensuring sub-second latency for location updates. It is designed for high-accuracy tracking, making it ideal for simulating fleet management or social proximity tools.
 
@@ -30,7 +30,7 @@ The system features a clean separation between the backend orchestration and the
 
 ## 🚀 Key Features
 
-* [cite_start]**⚡ Real-Time Broadcasting**: Uses **Socket.io 4.8.1** to sync coordinates across all clients instantly.
+* **⚡ Real-Time Broadcasting**: Uses **Socket.io 4.8.1** to sync coordinates across all clients instantly.
 * **🎯 High-Precision Tracking**: Configured with hardware-level GPS scaling, including `enableHighAccuracy: true` and `maximumAge: 0` for pinpoint precision.
 * **🧹 Smart Garbage Collection**: Automatically purges user markers from the map upon disconnection to optimize performance.
 * **📱 Responsive Mapping**: Powered by **Leaflet.js** and **OpenStreetMap** for a smooth, fluid user experience.
@@ -44,27 +44,27 @@ The system features a clean separation between the backend orchestration and the
 The application follows a modular **Client-Server-Broadcast** pattern:
 
 1.  **Frontend Logic (`script.js`)**: Captures high-accuracy GPS coordinates and manages the Leaflet map layer.
-2.  [cite_start]**Orchestration Layer (`app.js`)**: An Express-based Node.js server that manages WebSocket connections and event relays.
-3.  [cite_start]**Real-Time Layer (`Socket.io`)**: Handles the bi-directional communication pipe between the server and all active nodes.
+2.  **Orchestration Layer (`app.js`)**: An Express-based Node.js server that manages WebSocket connections and event relays.
+3.  **Real-Time Layer (`Socket.io`)**: Handles the bi-directional communication pipe between the server and all active nodes.
 4.  **Presentation Layer (`index.ejs`)**: Serves the dynamic UI structure and handles external library injections.
 
 ---
 
 ## 🛠 Tech Stack
 
-* [cite_start]**Backend Environment**: Node.js 
-* [cite_start]**Web Framework**: Express 5.1.0 
-* [cite_start]**Real-Time Engine**: Socket.io 4.8.1 
+* **Backend Environment**: Node.js 
+* **Web Framework**: Express 5.1.0 
+* **Real-Time Engine**: Socket.io 4.8.1 
 * **Mapping API**: Leaflet.js
-* [cite_start]**View Engine**: EJS (Embedded JavaScript) 
-* [cite_start]**DevOps**: Nodemon 3.1.10 
+* **View Engine**: EJS (Embedded JavaScript) 
+* **DevOps**: Nodemon 3.1.10 
 
 ---
 
 ## ⚡ Getting Started
 
 ### Prerequisites
-* [cite_start]Node.js (v18 or newer) 
+* Node.js (v18 or newer) 
 * Active Internet Connection (for Leaflet CDN)
 
 ### Installation
