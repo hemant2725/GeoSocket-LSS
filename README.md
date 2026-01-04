@@ -101,14 +101,14 @@ Below is a visual guide to the application flow and its real-time tracking capab
 ### 1. Establishing Connection
 When you launch the application and navigate to `localhost:3000`, the server initializes. The browser tab title **"Real-Time Tracking"** confirms that the connection is active and the system is ready to process location data.
 
-![Server Connection](https://github.com/user-attachments/assets/720f2777-1211-46df-9559-bdb6ad42b40d)
+![Server Connection](https://github.com/user-attachments/assets/d054497a-db18-464c-bbb7-031a4a575e0b)
 
 ---
 
 ### 2. Geolocation Authorization
 To ensure privacy and functionality, the application requests permission to access your device's location. Users must select **"Allow while visiting the site"** to enable the Geolocation API to fetch coordinates for the map.
 
-![Permission Request](https://github.com/user-attachments/assets/d054497a-db18-464c-bbb7-031a4a575e0b)
+![Permission Request](https://github.com/user-attachments/assets/720f2777-1211-46df-9559-bdb6ad42b40d)
 
 ---
 
