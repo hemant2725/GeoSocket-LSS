@@ -92,7 +92,7 @@ The system functions through a continuous event loop:
 * **Render**: Active clients receive the broadcast and update the corresponding marker position on their Leaflet instance.
 * **Disconnect**: Upon window closure, a `user-disconnect` event is emitted, prompting all nodes to remove the stale marker.
 ---
-## Screenshots
+## 📸 Screenshots
 ![1](https://github.com/user-attachments/assets/d054497a-db18-464c-bbb7-031a4a575e0b)
 Before the tracking starts, the browser prompts for location access. You must click "Allow while visiting the site" to enable the application to fetch your coordinates and display them on the map.
 ![2](https://github.com/user-attachments/assets/4de710af-b699-433e-97bc-80ea7214aa51)
